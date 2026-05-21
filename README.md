@@ -1,3 +1,5 @@
+NOTE: No need to run model again in this project folder or repo. in this folder itself the trained model is saved as model.pkl so no need to do any preprocessing or download the dataset just execute requirements.txt the execute dashboard(dash.html) with the command given below. follow the below commands given  for enabling venv and execute the project and after opening the dashboard in the chrome or any webserver first upload the test data which was in the dashboard/text_exported.csv which was given in the project folder itself then analyse the results 
+
 # Network Fault Detection using Graph Attention Networks (GAT)
 
 A real-time network intrusion detection system using Graph Attention Networks on the NSL-KDD dataset, with an interactive web dashboard for visualization.
@@ -89,7 +91,7 @@ Then open your browser and go to: **http://localhost:8000/dash.html**
 Once the dashboard is open, use the **CSV Upload** button and load the file from:
 
 ```
-data/text_data.csv
+ dashboard/text_export.csv
 ```
 
 That's it — no training required. The pre-trained model and data are already included in the repository.
